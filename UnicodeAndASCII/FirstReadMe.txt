@@ -1,0 +1,1 @@
+The core concept of windows about Unicode and ASCII
