@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rabbitmq_c_producer", "rabbitmq_c_producer\rabbitmq_c_producer.vcxproj", "{5039EE5F-6562-4D01-89A0-3BD907C5D611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5039EE5F-6562-4D01-89A0-3BD907C5D611}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5039EE5F-6562-4D01-89A0-3BD907C5D611}.Debug|Win32.Build.0 = Debug|Win32
+		{5039EE5F-6562-4D01-89A0-3BD907C5D611}.Release|Win32.ActiveCfg = Release|Win32
+		{5039EE5F-6562-4D01-89A0-3BD907C5D611}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
