@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllTest", "DllTest\DllTest.vcxproj", "{8AF7264A-FFCD-44A3-975F-E395BD4C0CA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InjecterDemo", "InjecterDemo\InjecterDemo.vcxproj", "{D6619F74-3527-4A1A-B3E4-E3AE246B1D26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF7264A-FFCD-44A3-975F-E395BD4C0CA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AF7264A-FFCD-44A3-975F-E395BD4C0CA5}.Debug|Win32.Build.0 = Debug|Win32
+		{8AF7264A-FFCD-44A3-975F-E395BD4C0CA5}.Release|Win32.ActiveCfg = Release|Win32
+		{8AF7264A-FFCD-44A3-975F-E395BD4C0CA5}.Release|Win32.Build.0 = Release|Win32
+		{D6619F74-3527-4A1A-B3E4-E3AE246B1D26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6619F74-3527-4A1A-B3E4-E3AE246B1D26}.Debug|Win32.Build.0 = Debug|Win32
+		{D6619F74-3527-4A1A-B3E4-E3AE246B1D26}.Release|Win32.ActiveCfg = Release|Win32
+		{D6619F74-3527-4A1A-B3E4-E3AE246B1D26}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

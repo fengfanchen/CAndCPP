@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/11/28 20:39:34。
+     1>项目“E:\vs2012\DllTest\InjecterDemo\InjecterDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2012\VC\bin\CL.exe /c /ID:\Qt5.5.1\Qt\5.5\msvc2012\include /IC:\OPenCV3\include\opencv2 /IC:\OPenCV3\include\opencv /IC:\OPenCV3 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\InjecterDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt InjecterDemoDlg.cpp
+         InjecterDemoDlg.cpp
+       Link:
+         D:\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs2012\DllTest\Debug\InjecterDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OPenCV3\lib IlmImfd.lib ippicvmt.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_world330d.lib zlibd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2012\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\vs2012\DllTest\Debug\InjecterDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs2012\DllTest\Debug\InjecterDemo.lib" /MACHINE:X86 Debug\InjecterDemo.res
+         Debug\InjecterDemo.obj
+         Debug\InjecterDemoDlg.obj
+         Debug\stdafx.obj
+         InjecterDemo.vcxproj -> E:\vs2012\DllTest\Debug\InjecterDemo.exe
+     1>已完成生成项目“E:\vs2012\DllTest\InjecterDemo\InjecterDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.93

@@ -1,0 +1,23 @@
+﻿生成启动时间为 2019/11/28 20:30:35。
+     1>项目“E:\vs2012\DllTest\DllTest\DllTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2012\VC\bin\CL.exe /c /ID:\Qt5.5.1\Qt\5.5\msvc2012\include /IC:\OPenCV3\include\opencv2 /IC:\OPenCV3\include\opencv /IC:\OPenCV3 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLTEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\DllTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2012\VC\bin\CL.exe /c /ID:\Qt5.5.1\Qt\5.5\msvc2012\include /IC:\OPenCV3\include\opencv2 /IC:\OPenCV3\include\opencv /IC:\OPenCV3 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLTEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\vs2012\VC\bin\CL.exe /c /ID:\Qt5.5.1\Qt\5.5\msvc2012\include /IC:\OPenCV3\include\opencv2 /IC:\OPenCV3\include\opencv /IC:\OPenCV3 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLTEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DllTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DllTest.cpp ExportDLL.cpp
+         ExportDLL.cpp
+         DllTest.cpp
+         正在生成代码...
+       Link:
+         D:\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs2012\DllTest\Debug\DllTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\OPenCV3\lib IlmImfd.lib ippicvmt.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_world330d.lib zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vs2012\DllTest\Debug\DllTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs2012\DllTest\Debug\DllTest.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\DllTest.obj
+         Debug\ExportDLL.obj
+         Debug\stdafx.obj
+            正在创建库 E:\vs2012\DllTest\Debug\DllTest.lib 和对象 E:\vs2012\DllTest\Debug\DllTest.exp
+         DllTest.vcxproj -> E:\vs2012\DllTest\Debug\DllTest.dll
+     1>已完成生成项目“E:\vs2012\DllTest\DllTest\DllTest.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.79
