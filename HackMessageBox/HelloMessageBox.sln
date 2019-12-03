@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloMessageBox", "HelloMessageBox\HelloMessageBox.vcxproj", "{E97999F6-DEB0-4CC1-A6F4-F4ECE0708506}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "changeTitle", "changeTitle\changeTitle.vcxproj", "{ABECB221-0250-451D-80F0-86CC8F58F5B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E97999F6-DEB0-4CC1-A6F4-F4ECE0708506}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E97999F6-DEB0-4CC1-A6F4-F4ECE0708506}.Debug|Win32.Build.0 = Debug|Win32
+		{E97999F6-DEB0-4CC1-A6F4-F4ECE0708506}.Release|Win32.ActiveCfg = Release|Win32
+		{E97999F6-DEB0-4CC1-A6F4-F4ECE0708506}.Release|Win32.Build.0 = Release|Win32
+		{ABECB221-0250-451D-80F0-86CC8F58F5B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABECB221-0250-451D-80F0-86CC8F58F5B3}.Debug|Win32.Build.0 = Debug|Win32
+		{ABECB221-0250-451D-80F0-86CC8F58F5B3}.Release|Win32.ActiveCfg = Release|Win32
+		{ABECB221-0250-451D-80F0-86CC8F58F5B3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
