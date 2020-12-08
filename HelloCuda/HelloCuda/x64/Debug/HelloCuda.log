@@ -1,0 +1,63 @@
+﻿生成启动时间为 2020/12/8 20:01:21。
+     1>项目“D:\vs2015Project\Test\HelloCuda\HelloCuda\HelloCuda.vcxproj”在节点 2 上(Build 个目标)。
+     1>AddCudaCompileDeps:
+         D:\VS2015\content\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /ID:\cuda\development\include /ID:\cuda\development\bin /ID:\cuda\development\include /I. /FIcuda_runtime.h /c D:\vs2015Project\Test\HelloCuda\HelloCuda\kernel.cu 
+     1>项目“D:\vs2015Project\Test\HelloCuda\HelloCuda\HelloCuda.vcxproj”(1)正在节点 2 上生成“D:\vs2015Project\Test\HelloCuda\HelloCuda\HelloCuda.vcxproj”(1:2) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\cff\AppData\Local\Temp\tmpd225c3bd1e954987a32caff882db4ac9.cmd"
+         "D:\cuda\development\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "D:\VS2015\content\VC\bin\x86_amd64" -x cu  -ID:\cuda\development\include -ID:\cuda\development\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\vs2015Project\Test\HelloCuda\HelloCuda\kernel.cu"
+         
+         D:\vs2015Project\Test\HelloCuda\HelloCuda>"D:\cuda\development\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "D:\VS2015\content\VC\bin\x86_amd64" -x cu  -ID:\cuda\development\include -ID:\cuda\development\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\vs2015Project\Test\HelloCuda\HelloCuda\kernel.cu" 
+     1>d:\cuda\development\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(825): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(1760): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(2622): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(3461): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(4404): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(5302): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(6213): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(7094): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(7893): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt/device_functions.h(773): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt/device_functions.h(1629): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(825): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(1760): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(2622): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(3461): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(4404): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(5302): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(6213): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(7094): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(7893): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt/device_functions.h(773): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt/device_functions.h(1629): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         kernel.cu
+     1>d:\cuda\development\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(825): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(1760): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(2622): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(3461): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(4404): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(5302): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(6213): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(7094): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cuda\development\include\crt\math_functions.h(7893): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>已完成生成项目“D:\vs2015Project\Test\HelloCuda\HelloCuda\HelloCuda.vcxproj”(CudaBuildCore 个目标)的操作。
+     1>Link:
+         D:\VS2015\content\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs2015Project\Test\HelloCuda\x64\Debug\HelloCuda.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\cuda\development\lib\x64 cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\vs2015Project\Test\HelloCuda\x64\Debug\HelloCuda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs2015Project\Test\HelloCuda\x64\Debug\HelloCuda.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         HelloCuda.vcxproj -> D:\vs2015Project\Test\HelloCuda\x64\Debug\HelloCuda.exe
+     1>已完成生成项目“D:\vs2015Project\Test\HelloCuda\HelloCuda\HelloCuda.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.02

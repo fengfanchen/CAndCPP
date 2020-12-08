@@ -1,0 +1,189 @@
+D:\cuda\development\include\cuda_runtime.h
+d:\cuda\development\include\crt/host_config.h
+D:\VS2015\content\VC\include\crtdefs.h
+D:\VS2015\content\VC\include\vcruntime.h
+D:\VS2015\content\VC\include\sal.h
+D:\VS2015\content\VC\include\ConcurrencySal.h
+D:\VS2015\content\VC\include\vadefs.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt.h
+D:\VS2015\content\VC\include\vcruntime.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\crt/host_defines.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\crt/host_defines.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\crt/host_defines.h
+D:\VS2015\content\VC\include\limits.h
+D:\VS2015\content\VC\include\vcruntime.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stddef.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\library_types.h
+d:\cuda\development\include\channel_descriptor.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\crt/host_defines.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\cuda_device_runtime_api.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\crt/host_defines.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\driver_functions.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\crt/host_defines.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\crt/host_defines.h
+d:\cuda\development\include\vector_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\vector_functions.hpp
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\crt/common_functions.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\crt\host_defines.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_memory.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\errno.h
+D:\VS2015\content\VC\include\vcruntime_string.h
+D:\VS2015\content\VC\include\vcruntime.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wstring.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wtime.h
+d:\cuda\development\include\crt\math_functions.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\crt\host_defines.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wstdlib.h
+D:\VS2015\content\VC\include\cmath
+D:\VS2015\content\VC\include\yvals.h
+D:\VS2015\content\VC\include\xkeycheck.h
+D:\VS2015\content\VC\include\crtdefs.h
+D:\VS2015\content\VC\include\vcruntime.h
+D:\VS2015\content\VC\include\use_ansi.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h
+D:\VS2015\content\VC\include\xtgmath.h
+D:\VS2015\content\VC\include\xtr1common
+D:\VS2015\content\VC\include\cstdlib
+d:\cuda\development\include\crt\math_functions.hpp
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\crt\host_defines.h
+d:\cuda\development\include\cuda_surface_types.h
+d:\cuda\development\include\channel_descriptor.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\cuda_texture_types.h
+d:\cuda\development\include\channel_descriptor.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\crt/device_functions.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\crt\host_defines.h
+d:\cuda\development\include\crt\device_functions.hpp
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\crt\host_defines.h
+d:\cuda\development\include\device_atomic_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\crt\device_double_functions.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\crt\host_defines.h
+d:\cuda\development\include\crt\device_double_functions.hpp
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\crt\host_defines.h
+d:\cuda\development\include\sm_20_atomic_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\sm_32_atomic_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\sm_35_atomic_functions.h
+d:\cuda\development\include\sm_32_atomic_functions.h
+d:\cuda\development\include\sm_60_atomic_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\sm_20_intrinsics.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\sm_30_intrinsics.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\sm_32_intrinsics.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\sm_35_intrinsics.h
+d:\cuda\development\include\sm_32_intrinsics.h
+d:\cuda\development\include\sm_61_intrinsics.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\crt\sm_70_rt.h
+d:\cuda\development\include\builtin_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\driver_types.h
+d:\cuda\development\include\surface_types.h
+d:\cuda\development\include\texture_types.h
+d:\cuda\development\include\vector_types.h
+d:\cuda\development\include\device_types.h
+d:\cuda\development\include\crt\host_defines.h
+d:\cuda\development\include\surface_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\cuda_surface_types.h
+d:\cuda\development\include\texture_fetch_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\cuda_texture_types.h
+d:\cuda\development\include\texture_indirect_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\surface_indirect_functions.h
+d:\cuda\development\include\cuda_runtime_api.h
+d:\cuda\development\include\device_launch_parameters.h
+d:\cuda\development\include\vector_types.h
+D:\cuda\development\include\cuda_runtime.h
+D:\cuda\development\include\device_launch_parameters.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_stdio_config.h
