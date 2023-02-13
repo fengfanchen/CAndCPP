@@ -1,0 +1,5 @@
+Test: main.cpp
+	g++ -c -fPIC -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore -o main.o main.cpp
+
+Test: main.o
+	g++ -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64 -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64/lib -o TestQt main.o -L/opt/Qt5.5.1/5.5/gcc_64/lib -lQt5Core

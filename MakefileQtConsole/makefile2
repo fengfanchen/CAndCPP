@@ -1,0 +1,21 @@
+
+PROGRAM = TestQt
+OBJECTS = main.o
+SOURCE := $(wildcard *.cpp)
+
+LINK = g++
+LFLAGS = -c -fPIC
+INCPATH = -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore
+
+CXX = g++
+CXXFLAGS = -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64 -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64/lib
+LIBS = -L/opt/Qt5.5.1/5.5/gcc_64/lib -lQt5Core
+
+$(OBJECTS): $(SOURCE)
+	$(LINK) $(LFLAGS) $(INCPATH) -o $@ $<
+	$(CXX) $(CXXFLAGS) -o $(PROGRAM) $@ $(LIBS)
+
+
+.PHONY: clean
+clean:
+	rm -f *.o $(PROGRAM) 
