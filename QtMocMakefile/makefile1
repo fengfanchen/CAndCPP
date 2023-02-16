@@ -1,0 +1,7 @@
+Test: main.cpp moc_Test.cpp
+	g++ -c -pipe -O2 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -I. -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtGui -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore -I. -I/opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++ -o main.o main.cpp
+	g++ -c -pipe -O2 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -I. -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtGui -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore -I. -I/opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++ -o Test.o Test.cpp
+	/opt/Qt5.5.1/5.5/gcc_64/bin/moc -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -I/opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++ -I/root/CffPro/QtMocMakefile -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtGui -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore Test.h -o moc_Test.cpp
+	g++ -c -pipe -O2 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -I. -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtGui -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore -I. -I/opt/Qt5.5.1/5.5/gcc_64/mkspecs/linux-g++ -o moc_Test.o moc_Test.cpp
+	g++ -Wl,-O1 -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64 -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64/lib -o QtMocMakefile main.o Test.o moc_Test.o   -L/opt/Qt5.5.1/5.5/gcc_64/lib -lQt5Gui -L/usr/lib64 -lQt5Core -lGL -lpthread 
+

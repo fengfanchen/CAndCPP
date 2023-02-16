@@ -1,0 +1,39 @@
+
+PROGRAM = QtMocMakefile
+OBJECTS = main.o Test.o moc_Test.o
+
+LINK = g++
+LFLAGS = -c -fPIC
+INCPATH = -I/opt/Qt5.5.1/5.5/gcc_64/include -I/opt/Qt5.5.1/5.5/gcc_64/include/QtCore
+
+CXX = g++
+CXXFLAGS = -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64 -Wl,-rpath,/opt/Qt5.5.1/5.5/gcc_64/lib
+LIBS = -L/opt/Qt5.5.1/5.5/gcc_64/lib -lQt5Core
+
+
+MOC = /opt/Qt5.5.1/5.5/gcc_64/bin/moc
+MFLAGS = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB
+
+all: $(PROGRAM)
+
+$(PROGRAM): $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $(PROGRAM) $(OBJECTS) $(LIBS)
+
+main.o: main.cpp
+	$(LINK) $(LFLAGS) $(INCPATH) -o $@ $<
+
+Test.o: Test.cpp
+	$(LINK) $(LFLAGS) $(INCPATH) -o $@ $<
+
+
+moc_Test.o: moc_Test.cpp 
+	$(LINK) $(LFLAGS) $(INCPATH) -o $@ $<
+
+
+moc_Test.cpp: Test.h
+	$(MOC) $(MFLAGS) $(INCPATH) $^ -o $@
+
+
+.PHONY: clean
+clean:
+	rm -f *.o moc_* $(PROGRAM) 
